@@ -18,3 +18,5 @@ with open(report_name,"wb")as f:
     runner.run(suite)
 print("测试一下")
 print("在测试一下")
+
+print("哈哈哈")
