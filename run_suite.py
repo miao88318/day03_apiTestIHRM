@@ -16,3 +16,4 @@ report_name = app.BASE_DIR + "/report/ihrm.html"
 with open(report_name,"wb")as f:
     runner = HTMLTestRunner_PY3.HTMLTestRunner(f,verbosity=1,title="IHRM接口测试报告", description="人类资源管理")
     runner.run(suite)
+print("测试一下")
